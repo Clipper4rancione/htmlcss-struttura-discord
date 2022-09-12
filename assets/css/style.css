@@ -16,7 +16,7 @@ header{
     width: 100%;
     height: 100px;
 
-    background-color: blue;
+    background-color: burlywood;
 }
 
 main .intro-container{
@@ -26,13 +26,10 @@ main .intro-container{
 
 
 /*    /   */
-header span{
-    color: white;
-}
 /* HEADER */
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     /* Da modificare */
@@ -88,12 +85,32 @@ ul li a{
 
 /* Sezioni da eliminare/modificare */
 
+/* SEZIONE 1 */
 main .intro-container .section-1{
+    display: flex;
+    justify-content: center;
     width: 100%;
-
+    padding: 10px;
     /* da togliere */
     height: 740px;
     background-color: palevioletred;
+}
+
+.img-1{
+    border: 1px solid black;
+
+    width: 725px;
+    height: 430px;
+    margin-right: 180px;
+    background-color: aqua;
+}
+.intro-p{
+    border: 1px solid black;
+
+    width: 379px;
+    height: 526px;
+    padding: 10px;
+    background-color: aqua;
 }
 main .intro-container .section-2{
     width: 100%;

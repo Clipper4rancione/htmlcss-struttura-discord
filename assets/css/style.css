@@ -26,6 +26,10 @@ main .intro-container{
 
 
 /*    /   */
+header span{
+    color: white;
+}
+/* HEADER */
 .menu{
     display: flex;
     justify-content: space-between;
@@ -57,8 +61,15 @@ ul li a{
     text-align: center;
     background-color: white;
 }
+/*     /      */
+
+/* MAIN */
 .jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    padding: 10px;
 
     /* Da togliere */
     height: 570px;
@@ -66,7 +77,14 @@ ul li a{
     /*  */
 }
 
+.jumbo-container{
+    /* da togliere */
+    width: 795px;
+    height: 390px;
 
+    background-color: green;
+    color: white;
+}
 
 /* Sezioni da eliminare/modificare */
 

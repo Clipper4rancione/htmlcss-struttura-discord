@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.debug{
+    border: 1px solid black;
+    background-color: rgba(255, 0, 0, .5);
+}
+
 header{
     display: flex;
     
@@ -28,4 +33,58 @@ header{
     height: 570px;
     background-color: greenyellow;
     /*  */
+}
+
+main .intro-container{
+    width: 100%;
+
+}
+
+/* Sezioni da eliminare/modificare */
+
+main .intro-container .section-1{
+    width: 100%;
+
+    /* da togliere */
+    height: 740px;
+    background-color: palevioletred;
+}
+main .intro-container .section-2{
+    width: 100%;
+
+    /* da togliere */
+    height: 740px;
+    background-color: yellow;
+}
+main .intro-container .section-3{
+    width: 100%;
+
+    /* da togliere */
+    height: 740px;
+    background-color: lightgrey;
+}
+main .intro-container .section-4{
+    width: 100%;
+
+    /* da togliere */
+    height: 740px;
+    background-color: lightgoldenrodyellow;
+}
+
+/* main .intro-container .section-5{
+    width: 100%;
+
+
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+} */
+/*           //           */
+
+footer{
+    width: 100%;
+
+    /* da togliere */
+    height: 665px;
+    background-color: #23272A;
+    color: white;
 }

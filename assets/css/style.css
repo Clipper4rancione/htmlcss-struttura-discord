@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    
+    width: 100%;
+    height: 100px;
+
+    background-color: blue;
+}
+
+.menu{
+    /* Da modificare */
+    width: 90%;
+    margin: 0 auto;   
+    /*  */
+    background-color: lightblue;
+}
+
+.jumbotron{
+    width: 100%;
+
+    /* Da togliere */
+    height: 570px;
+    background-color: greenyellow;
+    /*  */
+}
